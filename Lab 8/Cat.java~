@@ -1,0 +1,12 @@
+public class Cat extends Animal {
+    
+    public String sound;
+    
+    Cat(){
+    }
+    
+    Cat (String sound){
+        this.sound = sound;
+    }
+    
+}

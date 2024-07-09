@@ -1,0 +1,9 @@
+public class BBAStudent extends Student{
+    
+    public BBAStudent(){
+    }
+    public BBAStudent(String name, String department){
+        this.name = name;
+        this.department = department;
+    }
+}
