@@ -1,0 +1,19 @@
+//PROBLEM 1) Number Line//
+
+import java.util.Scanner
+
+    public class Problem01{
+    public static void mian (String[] args) {
+        
+        Scanner scan = new Scanner (System.in);
+        System.out.println("Enter a Number:");
+        int n = scan.nextInt();
+        
+        for (int i=0; i<n ; i++)
+        {
+            System.out.println(i);
+        }
+    }        
+}
+    
+    

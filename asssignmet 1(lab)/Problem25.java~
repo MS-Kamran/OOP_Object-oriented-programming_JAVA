@@ -1,0 +1,28 @@
+//PROBLEM 25) Palindromic Triangle//
+
+import java.util.Scanner;
+
+public class Problem25{
+    public static void main(String [] args) {
+        
+        Scanner scan = new Scanner (System.in);
+        System.out.println("Enter a Number:");
+        int n = scan.nextInt();
+        
+        int a=0;
+        for (int r=1; r<=n; r++)
+        {
+            a=0;
+            for (int s=1; s<=n-r; s++)
+            {
+            System.out.print(" ");
+            a++;
+            }
+            for (int c=1; c<=r*2-1 ; c++)
+            {
+                System.out.print(a+c);
+            }
+        System.out.println();
+        }
+    }        
+}
