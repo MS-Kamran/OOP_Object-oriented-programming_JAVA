@@ -1,0 +1,17 @@
+public class Dog { 
+    
+    private String color = "Black"; 
+    
+    Dog(String color){
+        this.color = color;
+    }
+    
+    public String changeColor(String color){
+        return color;
+    }
+
+    public void bark(String color){
+        System.out.println(this.color+"dog is barking");
+    }
+        
+} 

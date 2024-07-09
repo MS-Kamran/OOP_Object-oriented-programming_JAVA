@@ -1,0 +1,25 @@
+public class Student{
+    
+    private String name;
+    public static int c=0;
+    
+    Student(){
+        c++;
+    }
+    Student(String n){
+        this.name = n;
+        c++;
+    }
+    
+    public void setName(String n){
+        this.name = n;
+    }
+    public String getName(){
+        return name;
+    }
+    
+    public int numberOfStudents(){
+        return c;
+    }
+    
+}

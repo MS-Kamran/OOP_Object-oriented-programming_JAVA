@@ -1,0 +1,9 @@
+public class Course{
+    
+    public Stirng Cname;
+    
+    public Course(Stirng Cname){
+        this.Cname = Cname;
+    }
+    
+}

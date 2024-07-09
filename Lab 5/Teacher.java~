@@ -1,0 +1,33 @@
+public class Teacher{
+    
+    public String name;
+    public String sub;
+    public String co;
+    static String arr[] = new String[9];
+    static int i = 0 ;
+    static int y=0;
+    int a=0;
+    
+    public Teacher(String name, String sub){
+        this.name = name;
+        this.sub = sub;
+    }
+    
+    public void addCourse(Course c){
+        this.co = c.courseName;
+        arr[i] = this.co;
+        i++;
+    }
+    
+    public void printDetail(){
+        System.out.println("========================");
+        System.out.println("Name: "+this.name+"\nDepartment: "+this.sub+"\nList of courses");
+        System.out.println("========================");
+        for( ; y < a ; y++){
+            System.out.println(arr[y]);
+//            if (y == a)
+//                break;
+        }
+        System.out.println("========================");
+    }
+}
