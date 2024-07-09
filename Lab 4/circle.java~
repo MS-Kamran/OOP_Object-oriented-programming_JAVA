@@ -1,0 +1,19 @@
+public class circle{
+    private double radius = 1;
+    private String color = "Red";
+    
+    circle(){
+    }
+    
+    circle(double radius, String color){
+        this.radius = radius;
+        this.color = color;
+    }
+    
+    public double getRadius(){
+        return radius;
+    } 
+    public double getArea(){
+        double area = 3.1416 *r*r;
+        return area;
+    }

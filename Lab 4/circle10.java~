@@ -1,0 +1,7 @@
+public class circle10{
+    public static void main (String []args){
+        circle c1 = new circle;
+        System.out.println(c1);
+        System.out.println(getArea);
+    }
+}

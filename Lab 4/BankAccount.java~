@@ -1,0 +1,46 @@
+public class BankAccount{
+    private String name;
+    private String address; 
+    private String accountID;
+    private double balance;
+    
+    BankAccount(){
+    }
+    
+    student(String name, String addres, String accountID, double balance){
+        this.name = name;
+        this.addres = addres;
+        this.accountID = accountID;
+        this.balance = balance;
+    }
+    
+    public void setName(String n){
+        this.name = name;
+    }
+    public void setAddress(String a){
+        this.addres = addres;
+    }
+    public void setAccountID(String i){
+        this.accountID = accountID;
+    }
+    public void setBalance(double c){
+        this.balance = balance;
+    }
+
+    public String getName(){
+        return name;
+    }
+    public String getAccountID(){
+        return id;
+    }   
+    public String getAddress(){
+        return addres;
+    }    
+    public double getBalance(){
+        return balance;
+    }
+    
+    public void addInterest(double balance){
+        this.balance = balance*(7/100);
+    }
+}

@@ -1,0 +1,11 @@
+public class studentinfo{
+    public static void main (String []args){
+        student s1 = new student ("jhon","1102","Banasree","4.00"){
+            System.out.println(s1);
+            System.out.println(s1.getName());
+            System.out.println(s1.getID());
+            System.out.println(s1.getAddress());
+            System.out.println(s1.getCGPA());
+        }
+    }
+}
