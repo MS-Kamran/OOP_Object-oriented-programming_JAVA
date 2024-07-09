@@ -1,0 +1,7 @@
+public  class CricketTeam extends Team{
+
+    public String toString(){
+        String s = "Our name is" + super(name) +"\nWe play Football"+"\nOur football team mascot name is"+ super(mascot);
+        return s;
+    }
+}
